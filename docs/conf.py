@@ -49,12 +49,18 @@ master_doc = 'index'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+# html_theme = 'alabaster'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+import sphinx_glpi_theme
+
+html_theme = "glpi"
+
+html_theme_path = sphinx_glpi_theme.get_html_themes_path()
 
 # As a work-around – until https://github.com/sphinx-doc/sphinx/issues/4229 is 
 # solved – you should set html_scaled_image_link to False:
