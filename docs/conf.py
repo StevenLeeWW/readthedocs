@@ -52,3 +52,25 @@ html_theme = 'alabaster'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# As a work-around – until https://github.com/sphinx-doc/sphinx/issues/4229 is 
+# solved – you should set html_scaled_image_link to False:
+html_scaled_image_link = False
+
+# By default, a .txt suffix is added to source files. Jupyter notebooks with the 
+# suffix .ipynb.txt are normally not very useful, so if you want to avoid the additional 
+# suffix, set html_sourcelink_suffix to the empty string.
+html_sourcelink_suffix = ''
+
+
+# -- nbsphinx configuration ---------------------------------------------------
+
+# If you use Matplotlib for plots, this setting is recommended:
+nbsphinx_execute_arguments = [
+    "--InlineBackend.figure_formats={'svg', 'pdf'}",
+    "--InlineBackend.rc={'figure.dpi': 96}",
+]
+
+# To get a prompt similar to the Classic Notebook, use:
+nbsphinx_input_prompt = 'In [%s]:'
+
