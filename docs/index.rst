@@ -10,7 +10,7 @@ Welcome to Readthedocs's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   DCQE
+   Documenting project using Jupyter notebook and Read the docs <Documentation_readthedocs>
 
 Indices and tables
 ==================
