@@ -1,0 +1,391 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:40.0px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:40.0px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:16.1px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:16.1px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:7.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:7.3px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:30.1px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:30.1px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:12.1px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:12.1px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:12.1px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_019{font-family:Arial,serif;font-size:12.1px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:11.1px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:11.1px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Arial,serif;font-size:11.1px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_018{font-family:Arial,serif;font-size:11.1px;color:rgb(17,84,204);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:italic;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:14.0px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:14.0px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:11.1px;color:rgb(52,55,68);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:11.1px;color:rgb(52,55,68);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Arial,serif;font-size:26.1px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Arial,serif;font-size:26.1px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Arial,serif;font-size:14.0px;color:rgb(17,84,204);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Arial,serif;font-size:14.0px;color:rgb(17,84,204);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Arial,serif;font-size:14.0px;color:rgb(17,84,204);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_020{font-family:Arial,serif;font-size:14.0px;color:rgb(17,84,204);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Arial,serif;font-size:20.1px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:20.1px;color:rgb(0,171,68);font-weight:bold;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="70263826-1dcd-11ec-a980-0cc47a792c0a_id_70263826-1dcd-11ec-a980-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="70263826-1dcd-11ec-a980-0cc47a792c0a_id_70263826-1dcd-11ec-a980-0cc47a792c0a_files/background1.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:59.80px" class="cls_002"><span class="cls_002">Latar</span></div>
+<div style="position:absolute;left:324.00px;top:85.12px" class="cls_003"><span class="cls_003">Kemungkinan Asal Usul</span></div>
+<div style="position:absolute;left:324.00px;top:114.93px" class="cls_004"><span class="cls_004">Oleh disebabkan kes-kes terawal</span></div>
+<div style="position:absolute;left:324.00px;top:131.73px" class="cls_004"><span class="cls_004">dilaporkan mempunyai perkaitan</span></div>
+<div style="position:absolute;left:72.00px;top:115.83px" class="cls_002"><span class="cls_002">Belakang</span></div>
+<div style="position:absolute;left:324.00px;top:148.54px" class="cls_004"><span class="cls_004">epidemiologi dengan pasar makanan</span></div>
+<div style="position:absolute;left:324.00px;top:165.35px" class="cls_004"><span class="cls_004">laut dan haiwan liar, virus ini dipercayai</span></div>
+<div style="position:absolute;left:324.00px;top:182.14px" class="cls_004"><span class="cls_004">mempunyai punca zoonosis</span><span class="cls_009"><sup>1</sup></span><span class="cls_004">. Hal ini</span></div>
+<div style="position:absolute;left:72.00px;top:175.66px" class="cls_005"><span class="cls_005">Covid-19</span></div>
+<div style="position:absolute;left:324.00px;top:198.97px" class="cls_004"><span class="cls_004">disebabkan perbandingan urutan</span></div>
+<div style="position:absolute;left:324.00px;top:215.78px" class="cls_004"><span class="cls_004">genetik antara virus ini dengan sampel</span></div>
+<div style="position:absolute;left:324.00px;top:232.58px" class="cls_004"><span class="cls_004">virus SARS-CoV menunjukkan</span></div>
+<div style="position:absolute;left:72.00px;top:245.20px" class="cls_003"><span class="cls_003">Apakah itu Covid-19?</span></div>
+<div style="position:absolute;left:324.00px;top:249.39px" class="cls_004"><span class="cls_004">persamaan sebanyak</span><span class="cls_006"> </span><A HREF="https://ms.wikipedia.org/wiki/Koronavirus_sindrom_pernafasan_akut_teruk_2">79.5%</A> </span><span class="cls_004"> manakala</span></div>
+<div style="position:absolute;left:324.00px;top:266.20px" class="cls_004"><span class="cls_004">perbandingan dengan virus kelawar</span></div>
+<div style="position:absolute;left:324.00px;top:283.01px" class="cls_004"><span class="cls_004">menunjukkan persamaan sebanyak</span><span class="cls_006"> </span><A HREF="https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf">96%</A> </span><span class="cls_004">.</span></div>
+<div style="position:absolute;left:324.00px;top:299.82px" class="cls_004"><span class="cls_004">Oleh itu, interaksi rapat manusia dengan</span></div>
+<div style="position:absolute;left:324.00px;top:316.63px" class="cls_004"><span class="cls_004">kelawar yang berlaku di pasar</span></div>
+<div style="position:absolute;left:324.00px;top:333.65px" class="cls_004"><span class="cls_004">dispekulasi sebagai punca utama.</span></div>
+<div style="position:absolute;left:72.00px;top:406.81px" class="cls_007"><span class="cls_007">Ilustrasi oleh</span><span class="cls_008"> </span><A HREF="https://www.cdc.gov/">CDC</A> </span><span class="cls_007"> ini mendedahkan</span></div>
+<div style="position:absolute;left:72.00px;top:422.22px" class="cls_007"><span class="cls_007">morfologi ultrastruktur yang dipamerkan</span></div>
+<div style="position:absolute;left:72.00px;top:437.63px" class="cls_007"><span class="cls_007">oleh coronavirus. Sumber gambar:</span><span class="cls_008"> </span><A HREF="https://www.fda.gov/food/food-safety-during-emergencies/food-safety-and-coronavirus-disease-2019-covid-19">U.S. FDA</A> </span></div>
+<div style="position:absolute;left:72.00px;top:469.76px" class="cls_004"><span class="cls_004">Koronavirus sindrom pernafasan akut</span></div>
+<div style="position:absolute;left:72.00px;top:486.57px" class="cls_004"><span class="cls_004">teruk 2 (SARS-CoV-2), juga dikenali</span></div>
+<div style="position:absolute;left:72.00px;top:503.38px" class="cls_004"><span class="cls_004">sebagai coronavirus baru 2019</span></div>
+<div style="position:absolute;left:324.00px;top:516.55px" class="cls_007"><span class="cls_007">Coronavirus telah dijumpai pada</span><span class="cls_010"> Horseshoe</span></div>
+<div style="position:absolute;left:72.00px;top:520.19px" class="cls_004"><span class="cls_004">(2019-nCoV), ialah sejenis virus</span></div>
+<div style="position:absolute;left:324.00px;top:531.96px" class="cls_018"><span class="cls_018"> </span><A HREF="https://www.wsj.com/articles/the-bats-behind-the-pandemic-11586440959">kelawar</A><span class="cls_007"> di China. Sumber gambar:</span><span class="cls_008"> </span><A HREF="https://www.wsj.com/articles/the-bats-behind-the-pandemic-11586440959">WSJ</A> </span></div>
+<div style="position:absolute;left:72.00px;top:537.00px" class="cls_004"><span class="cls_004">berjangkit yang menyebabkan</span><span class="cls_006"> </span><A HREF="https://ms.wikipedia.org/wiki/Koronavirus_sindrom_pernafasan_akut_teruk_2">jangkitan</A> </span></div>
+<div style="position:absolute;left:72.00px;top:553.80px" class="cls_019"><span class="cls_019"> </span><A HREF="https://ms.wikipedia.org/wiki/Koronavirus_sindrom_pernafasan_akut_teruk_2">pernafasan</A> <span class="cls_004"> (COVID-19) dan telah</span></div>
+<div style="position:absolute;left:72.00px;top:570.61px" class="cls_004"><span class="cls_004">menunjukkan bukti penularan manusia</span></div>
+<div style="position:absolute;left:72.00px;top:587.42px" class="cls_004"><span class="cls_004">kepada manusia. Virus ini kali pertama</span></div>
+<div style="position:absolute;left:324.00px;top:585.07px" class="cls_011"><span class="cls_011">Pengisytiharan WHO</span></div>
+<div style="position:absolute;left:72.00px;top:604.23px" class="cls_004"><span class="cls_004">dikenal pasti oleh pihak berkuasa di</span></div>
+<div style="position:absolute;left:72.00px;top:621.04px" class="cls_019"><span class="cls_019"> </span><A HREF="https://www.wsj.com/articles/in-hunt-for-covid-19-origin-patient-zero-points-to-second-wuhan-market-11614335404">Wuhan</A> <span class="cls_004">, Hubei, China, dan ia merupakan</span></div>
+<div style="position:absolute;left:324.00px;top:621.65px" class="cls_004"><span class="cls_004">Pada 31 Januari 2020, Pertubuhan</span></div>
+<div style="position:absolute;left:72.00px;top:637.85px" class="cls_004"><span class="cls_004">penyebab wabak coronavirus 2019-21</span></div>
+<div style="position:absolute;left:324.00px;top:638.46px" class="cls_004"><span class="cls_004">Kesihatan Sedunia (WHO) telah</span></div>
+<div style="position:absolute;left:72.00px;top:654.66px" class="cls_004"><span class="cls_004">yang sedang berlaku.</span></div>
+<div style="position:absolute;left:324.00px;top:655.27px" class="cls_004"><span class="cls_004">mengisytiharkan coronavirus sebagai</span></div>
+<div style="position:absolute;left:324.00px;top:694.84px" class="cls_012"><span class="cls_012"><sup>1</sup></span><span class="cls_013"> Kenyataan ini belum disahkan oleh mana-mana</span></div>
+<div style="position:absolute;left:324.00px;top:707.02px" class="cls_013"><span class="cls_013">pihak.</span></div>
+<div style="position:absolute;left:533.89px;top:740.77px" class="cls_007"><span class="cls_007">1</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="70263826-1dcd-11ec-a980-0cc47a792c0a_id_70263826-1dcd-11ec-a980-0cc47a792c0a_files/background2.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:62.04px" class="cls_004"><span class="cls_004">perhatian kecemasan kesihatan awam</span></div>
+<div style="position:absolute;left:324.00px;top:62.04px" class="cls_004"><span class="cls_004">hingga empat belas hari selepas</span></div>
+<div style="position:absolute;left:72.00px;top:78.85px" class="cls_004"><span class="cls_004">peringkat antarabangsa (PHEIC) setelah</span></div>
+<div style="position:absolute;left:324.00px;top:78.85px" class="cls_004"><span class="cls_004">dijangkiti.</span></div>
+<div style="position:absolute;left:72.00px;top:95.66px" class="cls_004"><span class="cls_004">mendapati 98 kes di 18 negara di luar</span></div>
+<div style="position:absolute;left:72.00px;top:112.47px" class="cls_004"><span class="cls_004">negara China. 11 hari kemudian, iaitu</span></div>
+<div style="position:absolute;left:324.00px;top:112.47px" class="cls_004"><span class="cls_004">Lebih kurang satu per tiga orang yang</span></div>
+<div style="position:absolute;left:72.00px;top:129.27px" class="cls_004"><span class="cls_004">pada 11 Februari 2020, penyakit ini</span></div>
+<div style="position:absolute;left:324.00px;top:129.27px" class="cls_004"><span class="cls_004">dijangkiti tidak mengalami gejala yang</span></div>
+<div style="position:absolute;left:72.00px;top:146.08px" class="cls_004"><span class="cls_004">dinamakan sebagai Coronavirus Disease</span></div>
+<div style="position:absolute;left:324.00px;top:146.08px" class="cls_004"><span class="cls_004">ketara. Antara mereka yang menunjukan</span></div>
+<div style="position:absolute;left:72.00px;top:162.89px" class="cls_004"><span class="cls_004">19 (COVID 19) untuk mengelakkan panik</span></div>
+<div style="position:absolute;left:324.00px;top:162.89px" class="cls_004"><span class="cls_004">gejala yang cukup ketara untuk</span></div>
+<div style="position:absolute;left:72.00px;top:179.70px" class="cls_004"><span class="cls_004">yang tidak diperlukan. Covid 19</span></div>
+<div style="position:absolute;left:324.00px;top:179.70px" class="cls_004"><span class="cls_004">diklasifkasikan sebagai pesakit,</span></div>
+<div style="position:absolute;left:72.00px;top:196.51px" class="cls_004"><span class="cls_004">kemudian diumumkan sebagai sebuah</span></div>
+<div style="position:absolute;left:324.00px;top:196.51px" class="cls_004"><span class="cls_004">kebanyakan (81%) mengalami gejala</span></div>
+<div style="position:absolute;left:72.00px;top:213.32px" class="cls_019"><span class="cls_019"> </span><A HREF="https://www.who.int/director-general/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020">pandemik global</A> <span class="cls_004"> oleh Ketua Pengarah</span></div>
+<div style="position:absolute;left:324.00px;top:213.32px" class="cls_004"><span class="cls_004">ringan hingga sederhana (seperti</span></div>
+<div style="position:absolute;left:72.00px;top:230.12px" class="cls_004"><span class="cls_004">WHO, Tedros Adhanom Ghebreyesus</span></div>
+<div style="position:absolute;left:324.00px;top:230.12px" class="cls_004"><span class="cls_004">pneumonia ringan), sementara 14%</span></div>
+<div style="position:absolute;left:72.00px;top:246.93px" class="cls_004"><span class="cls_004">setelah meneliti penyebaran yang</span></div>
+<div style="position:absolute;left:324.00px;top:246.93px" class="cls_004"><span class="cls_004">mengalami gejala yang teruk (seperti</span></div>
+<div style="position:absolute;left:72.00px;top:263.74px" class="cls_004"><span class="cls_004">semakin teruk.</span></div>
+<div style="position:absolute;left:324.00px;top:263.74px" class="cls_004"><span class="cls_004">hipoksia), dan 5% mengalami gejala</span></div>
+<div style="position:absolute;left:324.00px;top:280.55px" class="cls_004"><span class="cls_004">kritikal (kegagalan pernafasan).</span></div>
+<div style="position:absolute;left:72.00px;top:462.13px" class="cls_007"><span class="cls_007">Ketua Pengarah WHO, Tedros Adhanom</span></div>
+<div style="position:absolute;left:72.00px;top:477.54px" class="cls_007"><span class="cls_007">Ghebreyesus berkata, WHO bimbang virus</span></div>
+<div style="position:absolute;left:72.00px;top:492.94px" class="cls_007"><span class="cls_007">merebak ke negara yang tidak mempunyai</span></div>
+<div style="position:absolute;left:72.00px;top:508.35px" class="cls_007"><span class="cls_007">sumber untuk menanganinya. Sumber</span></div>
+<div style="position:absolute;left:72.00px;top:523.76px" class="cls_007"><span class="cls_007">gambar:</span><span class="cls_008"> </span><A HREF="https://www.bharian.com.my/dunia/eropah/2020/01/651371/coronavirus-who-isytihar-darurat-kesihatan-awam-global">Berita Harian online</A> </span></div>
+<div style="position:absolute;left:72.00px;top:583.32px" class="cls_003"><span class="cls_003">Gejala dan Klasifkasi</span></div>
+<div style="position:absolute;left:324.00px;top:595.27px" class="cls_014"><span class="cls_014">Tanda-tanda orang dewasa yang dijangkiti</span></div>
+<div style="position:absolute;left:324.00px;top:608.67px" class="cls_014"><span class="cls_014">Covid-19. Sumber gambar:</span><span class="cls_008"> </span><A HREF="https://covid-19.moh.gov.my/garis-panduan/gp-umum-covid19/gp-tanda-orang-dewasa-dan-kanak-kanak-dijangkiti-covid-19">Kementerian</A> </span></div>
+<div style="position:absolute;left:72.00px;top:621.92px" class="cls_019"><span class="cls_019"> </span><A HREF="https://en.wikipedia.org/wiki/COVID-19">Gejala-gejala</A> <span class="cls_004"> COVID-19 adalah seperti</span></div>
+<div style="position:absolute;left:324.00px;top:622.07px" class="cls_018"><span class="cls_018"> </span><A HREF="https://covid-19.moh.gov.my/garis-panduan/gp-umum-covid19/gp-tanda-orang-dewasa-dan-kanak-kanak-dijangkiti-covid-19">Kesihatan Malaysia</A> </div>
+<div style="position:absolute;left:72.00px;top:638.73px" class="cls_004"><span class="cls_004">demam, batuk, sakit kepala, keletihan,</span></div>
+<div style="position:absolute;left:72.00px;top:655.54px" class="cls_004"><span class="cls_004">kesukaran bernafas, dan kehilangan bau</span></div>
+<div style="position:absolute;left:72.00px;top:672.35px" class="cls_004"><span class="cls_004">dan rasa. Gejala mungkin bermula satu</span></div>
+<div style="position:absolute;left:533.89px;top:740.77px" class="cls_007"><span class="cls_007">2</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:1604px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="70263826-1dcd-11ec-a980-0cc47a792c0a_id_70263826-1dcd-11ec-a980-0cc47a792c0a_files/background3.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:84.32px" class="cls_015"><span class="cls_015">Kronologi</span></div>
+<div style="position:absolute;left:327.75px;top:96.56px" class="cls_004"><span class="cls_004">Mar 17, 2020</span></div>
+<div style="position:absolute;left:324.00px;top:114.11px" class="cls_016"><span class="cls_016">Kematian pertama akibat</span></div>
+<div style="position:absolute;left:72.00px;top:115.99px" class="cls_015"><span class="cls_015">Covid-19 Di</span></div>
+<div style="position:absolute;left:324.00px;top:133.71px" class="cls_016"><span class="cls_016">Covid-19</span></div>
+<div style="position:absolute;left:72.00px;top:147.65px" class="cls_015"><span class="cls_015">Malaysia</span></div>
+<div style="position:absolute;left:324.00px;top:167.49px" class="cls_004"><span class="cls_004">Dua</span><span class="cls_006"> </span><A HREF="https://www.youtube.com/watch?v=QZnXLcpGGfI">kes kematian pertama</A> </span><span class="cls_004"> dilaporkan</span></div>
+<div style="position:absolute;left:324.00px;top:184.30px" class="cls_004"><span class="cls_004">membabitkan seorang lelaki berusia 34</span></div>
+<div style="position:absolute;left:324.00px;top:201.11px" class="cls_004"><span class="cls_004">tahun yang pernah menghadiri</span></div>
+<div style="position:absolute;left:75.75px;top:205.89px" class="cls_004"><span class="cls_004">Jan 25, 2020</span></div>
+<div style="position:absolute;left:324.00px;top:217.92px" class="cls_004"><span class="cls_004">perhimpunan tabligh di Masjid Jamek</span></div>
+<div style="position:absolute;left:72.00px;top:223.44px" class="cls_016"><span class="cls_016">Kes pertama</span></div>
+<div style="position:absolute;left:324.00px;top:234.73px" class="cls_004"><span class="cls_004">Seri Petaling dan seorang paderi berusia</span></div>
+<div style="position:absolute;left:324.00px;top:251.53px" class="cls_004"><span class="cls_004">60 tahun dari Sarawak yang mempunyai</span></div>
+<div style="position:absolute;left:72.00px;top:257.21px" class="cls_019"><span class="cls_019"> </span><A HREF="https://www.youtube.com/watch?v=QZnXLcpGGfI">Kes pertama</A> <span class="cls_004"> 2019-nCoV disahkan</span></div>
+<div style="position:absolute;left:324.00px;top:268.34px" class="cls_004"><span class="cls_004">sejarah penyakit kronik.</span></div>
+<div style="position:absolute;left:72.00px;top:274.02px" class="cls_004"><span class="cls_004">membabitkan</span><span class="cls_006"> </span><A HREF="https://www.astroawani.com/berita-malaysia/kes-pertama-koronavirus-di-malaysia-tiga-warga-china-kini-dirawat-di-hospital-sungai-buloh-228989">tiga warga China</A> </span><span class="cls_004"> yang</span></div>
+<div style="position:absolute;left:72.00px;top:290.83px" class="cls_004"><span class="cls_004">masuk ke Malaysia melalui Johor dari</span></div>
+<div style="position:absolute;left:72.00px;top:307.64px" class="cls_004"><span class="cls_004">Singapura pada 23 Januari.</span></div>
+<div style="position:absolute;left:327.75px;top:319.67px" class="cls_004"><span class="cls_004">Mar 18, 2020</span></div>
+<div style="position:absolute;left:324.00px;top:337.22px" class="cls_016"><span class="cls_016">Pelaksanaan perintah kawalan</span></div>
+<div style="position:absolute;left:75.75px;top:359.90px" class="cls_004"><span class="cls_004">Jan 31, 2020</span></div>
+<div style="position:absolute;left:324.00px;top:356.83px" class="cls_016"><span class="cls_016">pergerakan (PKP) pertama</span></div>
+<div style="position:absolute;left:72.00px;top:377.82px" class="cls_016"><span class="cls_016">Darurat Kesihatan Dunia</span></div>
+<div style="position:absolute;left:324.00px;top:390.60px" class="cls_004"><span class="cls_004">Sebagai tindak balas terhadap lonjakan</span></div>
+<div style="position:absolute;left:324.00px;top:407.41px" class="cls_004"><span class="cls_004">kes pada bulan Mac 2020, Perdana</span></div>
+<div style="position:absolute;left:72.00px;top:411.59px" class="cls_004"><span class="cls_004">Pertubuhan Kesihatan Sedunia (WHO)</span></div>
+<div style="position:absolute;left:324.00px;top:424.22px" class="cls_004"><span class="cls_004">Menteri ke-8, Muhyiddin Yassin,</span></div>
+<div style="position:absolute;left:72.00px;top:428.40px" class="cls_004"><span class="cls_004">mengisytiharkan coronavirus sebagai</span></div>
+<div style="position:absolute;left:324.00px;top:441.03px" class="cls_004"><span class="cls_004">mengumumkan pelaksanaan</span><span class="cls_006"> </span><A HREF="https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Malaysia">Perintah</A> </span></div>
+<div style="position:absolute;left:72.00px;top:445.21px" class="cls_019"><span class="cls_019"> </span><A HREF="https://www.youtube.com/watch?v=QZnXLcpGGfI">darurat</A> <span class="cls_004"> kesihatan dunia.</span></div>
+<div style="position:absolute;left:324.00px;top:457.84px" class="cls_019"><span class="cls_019"> </span><A HREF="https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Malaysia">Kawalan Pergerakan</A> <span class="cls_004"> (PKP atau MCO)</span></div>
+<div style="position:absolute;left:324.00px;top:474.64px" class="cls_004"><span class="cls_004">sehingga 31 Mac 2020. Tarikh tamat PKP</span></div>
+<div style="position:absolute;left:324.00px;top:491.45px" class="cls_004"><span class="cls_004">selepas itu dilanjutkan ke awal Mei</span></div>
+<div style="position:absolute;left:75.75px;top:496.54px" class="cls_004"><span class="cls_004">Feb 4, 2020</span></div>
+<div style="position:absolute;left:324.00px;top:508.26px" class="cls_004"><span class="cls_004">2020.</span></div>
+<div style="position:absolute;left:72.00px;top:514.09px" class="cls_016"><span class="cls_016">Kes pertama rakyat Malaysia</span></div>
+<div style="position:absolute;left:72.00px;top:547.86px" class="cls_004"><span class="cls_004">Gelombang kedua jangkitan berlaku</span></div>
+<div style="position:absolute;left:327.75px;top:559.59px" class="cls_004"><span class="cls_004">Mar 27, 2020</span></div>
+<div style="position:absolute;left:72.00px;top:564.67px" class="cls_004"><span class="cls_004">melibatkan</span><span class="cls_006"> </span><A HREF="https://www.youtube.com/watch?v=QZnXLcpGGfI">penularan tempatan</A> </span><span class="cls_004">, seorang</span></div>
+<div style="position:absolute;left:72.00px;top:581.48px" class="cls_004"><span class="cls_004">lelaki 41 tahun yang berasal dari</span></div>
+<div style="position:absolute;left:324.00px;top:577.13px" class="cls_016"><span class="cls_016">Pelaksanaan perintah kawalan</span></div>
+<div style="position:absolute;left:72.00px;top:598.29px" class="cls_004"><span class="cls_004">Selangor disahkan positif.</span></div>
+<div style="position:absolute;left:324.00px;top:596.74px" class="cls_016"><span class="cls_016">pergerakan diperketatkan (PKPD)</span></div>
+<div style="position:absolute;left:324.00px;top:630.52px" class="cls_004"><span class="cls_004">Lokasi-lokasi tertentu yang mempunyai</span></div>
+<div style="position:absolute;left:72.00px;top:631.74px" class="cls_016"><span class="cls_016">Kes pulih pertama</span></div>
+<div style="position:absolute;left:324.00px;top:647.33px" class="cls_004"><span class="cls_004">kluster yang besar dikenakan</span><span class="cls_006"> </span><A HREF="https://www.astroawani.com/berita-malaysia/covid19-pkpd-dikuat-kuasa-di-dua-kawasan-di-simpang-renggam-235454">perintah</A> </span></div>
+<div style="position:absolute;left:72.00px;top:651.51px" class="cls_004"><span class="cls_004">Seorang kanak-kanak perempuan warga</span></div>
+<div style="position:absolute;left:324.00px;top:664.14px" class="cls_019"><span class="cls_019"> </span><A HREF="https://www.astroawani.com/berita-malaysia/covid19-pkpd-dikuat-kuasa-di-dua-kawasan-di-simpang-renggam-235454">yang lebih ketat</A> <span class="cls_004"> : PKPD (atau EMCO),</span></div>
+<div style="position:absolute;left:72.00px;top:668.32px" class="cls_004"><span class="cls_004">China di Langkawi yang sebelum ini</span></div>
+<div style="position:absolute;left:324.00px;top:680.95px" class="cls_004"><span class="cls_004">selama 14 hari.</span></div>
+<div style="position:absolute;left:72.00px;top:685.13px" class="cls_004"><span class="cls_004">positif coronavirus didapati pulih dan</span></div>
+<div style="position:absolute;left:72.00px;top:701.94px" class="cls_004"><span class="cls_004">bebas sepenuhnya daripada jangkitan.</span></div>
+<div style="position:absolute;left:533.89px;top:740.77px" class="cls_007"><span class="cls_007">3</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:2406px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="70263826-1dcd-11ec-a980-0cc47a792c0a_id_70263826-1dcd-11ec-a980-0cc47a792c0a_files/background4.jpg" width=612 height=792></div>
+<div style="position:absolute;left:75.75px;top:96.56px" class="cls_004"><span class="cls_004">May 4, 2020</span></div>
+<div style="position:absolute;left:327.75px;top:96.56px" class="cls_004"><span class="cls_004">Jan 12, 2021</span></div>
+<div style="position:absolute;left:72.00px;top:114.11px" class="cls_016"><span class="cls_016">Pelaksanaan perintah kawalan</span></div>
+<div style="position:absolute;left:324.00px;top:114.11px" class="cls_016"><span class="cls_016">Darurat di seluruh negara</span></div>
+<div style="position:absolute;left:72.00px;top:133.71px" class="cls_016"><span class="cls_016">pergerakan bersyarat (PKPB)</span></div>
+<div style="position:absolute;left:324.00px;top:147.88px" class="cls_019"><span class="cls_019"> </span><A HREF="https://www.freemalaysiatoday.com/category/nation/2021/01/12/agong-declares-emergency-to-curb-covid-19-spread/">Darurat</A> <span class="cls_004"> di seluruh negara diisytiharkan</span></div>
+<div style="position:absolute;left:324.00px;top:164.69px" class="cls_004"><span class="cls_004">oleh Yang di-Pertuan Agong,</span></div>
+<div style="position:absolute;left:72.00px;top:167.49px" class="cls_004"><span class="cls_004">Kerajaan mula melonggarkan Lockdown</span></div>
+<div style="position:absolute;left:324.00px;top:181.50px" class="cls_004"><span class="cls_004">menangguhkan sidang Parlimen dan</span></div>
+<div style="position:absolute;left:72.00px;top:184.30px" class="cls_004"><span class="cls_004">secara berfasa; bermula dengan PKPB</span></div>
+<div style="position:absolute;left:324.00px;top:198.31px" class="cls_004"><span class="cls_004">Dewan Undangan Negeri dan</span></div>
+<div style="position:absolute;left:72.00px;top:201.11px" class="cls_004"><span class="cls_004">(atau</span><span class="cls_006"> </span><A HREF="https://www.reuters.com/article/us-health-coronavirus-malaysia/malaysia-defends-easing-of-coronavirus-curbs-as-new-infections-jump-idUSKBN22E09R">CMCO</A> </span><span class="cls_004">). Kebanyakan sektor</span></div>
+<div style="position:absolute;left:72.00px;top:217.92px" class="cls_004"><span class="cls_004">perniagaan boleh dibuka semula di</span></div>
+<div style="position:absolute;left:324.00px;top:215.12px" class="cls_004"><span class="cls_004">memberikan kuasa darurat kerajaan</span></div>
+<div style="position:absolute;left:324.00px;top:231.92px" class="cls_004"><span class="cls_004">Muhyiddin sehingga 1 Ogos 2021.</span></div>
+<div style="position:absolute;left:72.00px;top:234.73px" class="cls_004"><span class="cls_004">bawah SOP yang ketat.</span></div>
+<div style="position:absolute;left:327.75px;top:283.25px" class="cls_004"><span class="cls_004">Feb 24, 2021</span></div>
+<div style="position:absolute;left:75.75px;top:286.05px" class="cls_004"><span class="cls_004">Jun 10, 2020</span></div>
+<div style="position:absolute;left:324.00px;top:300.80px" class="cls_016"><span class="cls_016">Kempen vaksinasi dilancarkan</span></div>
+<div style="position:absolute;left:72.00px;top:303.60px" class="cls_016"><span class="cls_016">Pelaksanaan perintah kawalan</span></div>
+<div style="position:absolute;left:72.00px;top:323.21px" class="cls_016"><span class="cls_016">pergerakan pemulihan (PKPP)</span></div>
+<div style="position:absolute;left:324.00px;top:334.57px" class="cls_004"><span class="cls_004">Perdana Menteri ke-8 Muhyiddin Yassin</span></div>
+<div style="position:absolute;left:324.00px;top:351.38px" class="cls_004"><span class="cls_004">menjadi orang pertama di Malaysia yang</span></div>
+<div style="position:absolute;left:72.00px;top:356.99px" class="cls_004"><span class="cls_004">Perdana menteri ke-8, Muhyiddin Yassin</span></div>
+<div style="position:absolute;left:324.00px;top:368.19px" class="cls_004"><span class="cls_004">menerima suntikan vaksin Covid-19 dan</span></div>
+<div style="position:absolute;left:72.00px;top:373.79px" class="cls_004"><span class="cls_004">mengumumkan bahawa perjalanan</span></div>
+<div style="position:absolute;left:324.00px;top:385.00px" class="cls_004"><span class="cls_004">melancarkan</span><span class="cls_006"> </span><A HREF="https://www.straitstimes.com/asia/se-asia/pm-muhyiddin-receives-first-covid-19-vaccine-as-malaysia-kicks-off-mass-inoculation">kempen vaksinasi</A> </span><span class="cls_004"> di</span></div>
+<div style="position:absolute;left:72.00px;top:390.60px" class="cls_019"><span class="cls_019"> </span><A HREF="https://www.malaymail.com/news/malaysia/2020/06/07/pm-cmco-to-be-replaced-with-recovery-movement-control-order-with-further-re/1873225">merentas negeri</A> <span class="cls_004"> diizinkan semula,</span></div>
+<div style="position:absolute;left:324.00px;top:401.81px" class="cls_004"><span class="cls_004">seluruh negara.</span></div>
+<div style="position:absolute;left:72.00px;top:407.41px" class="cls_004"><span class="cls_004">kecuali untuk kawasan yang di bawah</span></div>
+<div style="position:absolute;left:72.00px;top:424.22px" class="cls_004"><span class="cls_004">PKPD (EMCO), dan menyatakan bahawa</span></div>
+<div style="position:absolute;left:72.00px;top:441.03px" class="cls_004"><span class="cls_004">negara sedang bergerak menuju ke fasa</span></div>
+<div style="position:absolute;left:327.75px;top:453.13px" class="cls_004"><span class="cls_004">Jun 1, 2021</span></div>
+<div style="position:absolute;left:72.00px;top:457.84px" class="cls_004"><span class="cls_004">pemulihan.</span></div>
+<div style="position:absolute;left:324.00px;top:470.68px" class="cls_016"><span class="cls_016">Pelaksanaan Total Lockdown di</span></div>
+<div style="position:absolute;left:324.00px;top:490.29px" class="cls_016"><span class="cls_016">seluruh negara (MCO 3.0)</span></div>
+<div style="position:absolute;left:75.75px;top:509.16px" class="cls_004"><span class="cls_004">Sep 20, 2020</span></div>
+<div style="position:absolute;left:324.00px;top:524.07px" class="cls_019"><span class="cls_019"> </span><A HREF="https://refugeemalaysia.org/full-lockdown-mco-3-0-starting-1-june-2021/">Full Lockdown</A> <span class="cls_004"> di seluruh negara akan</span></div>
+<div style="position:absolute;left:72.00px;top:526.71px" class="cls_016"><span class="cls_016">Gelombang ketiga</span></div>
+<div style="position:absolute;left:324.00px;top:540.88px" class="cls_004"><span class="cls_004">dilaksanakan untuk semua sektor sosial</span></div>
+<div style="position:absolute;left:324.00px;top:557.68px" class="cls_004"><span class="cls_004">dan ekonomi. Hanya aktiviti sosial dan</span></div>
+<div style="position:absolute;left:72.00px;top:560.49px" class="cls_004"><span class="cls_004">Malaysia dilanda gelombang ketiga</span></div>
+<div style="position:absolute;left:324.00px;top:574.49px" class="cls_004"><span class="cls_004">ekonomi keperluan dibenarkan</span></div>
+<div style="position:absolute;left:72.00px;top:577.29px" class="cls_004"><span class="cls_004">pandemik Covid-19 disebabkan oleh</span></div>
+<div style="position:absolute;left:324.00px;top:591.30px" class="cls_004"><span class="cls_004">beroperasi.</span></div>
+<div style="position:absolute;left:72.00px;top:594.10px" class="cls_019"><span class="cls_019"> </span><A HREF="https://www.channelnewsasia.com/asia/covid-19-malaysia-emergency-stop-by-elections-sabah-perak-cases-482026">pilihan raya</A> <span class="cls_004"> negeri Sabah, dengan</span></div>
+<div style="position:absolute;left:72.00px;top:610.91px" class="cls_004"><span class="cls_004">bilangan kes Covid-19 mulai meningkat</span></div>
+<div style="position:absolute;left:72.00px;top:627.72px" class="cls_004"><span class="cls_004">kepada tiga angka.</span></div>
+<div style="position:absolute;left:327.75px;top:642.63px" class="cls_004"><span class="cls_004">Jul 13, 2021</span></div>
+<div style="position:absolute;left:324.00px;top:660.18px" class="cls_016"><span class="cls_016">Bilangan Kes Harian meningkat</span></div>
+<div style="position:absolute;left:324.00px;top:679.79px" class="cls_016"><span class="cls_016">kepada </span><A HREF="https://github.com/CSSEGISandData/COVID-19">5</A> </span><span class="cls_016"> angka</span></div>
+<div style="position:absolute;left:533.89px;top:740.77px" class="cls_007"><span class="cls_007">4</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:3208px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="70263826-1dcd-11ec-a980-0cc47a792c0a_id_70263826-1dcd-11ec-a980-0cc47a792c0a_files/background5.jpg" width=612 height=792></div>
+<div style="position:absolute;left:75.75px;top:62.94px" class="cls_004"><span class="cls_004">Jul 21, 2021</span></div>
+<div style="position:absolute;left:324.00px;top:62.04px" class="cls_004"><span class="cls_004">Konsep video ini adalah berkaitan</span></div>
+<div style="position:absolute;left:324.00px;top:78.85px" class="cls_004"><span class="cls_004">dengan imbas kembali perkara yang</span></div>
+<div style="position:absolute;left:72.00px;top:80.49px" class="cls_016"><span class="cls_016">Kes varian Delta pertama</span></div>
+<div style="position:absolute;left:324.00px;top:95.66px" class="cls_004"><span class="cls_004">berlaku semasa covid-19 bermula, apa</span></div>
+<div style="position:absolute;left:72.00px;top:114.27px" class="cls_004"><span class="cls_004">Kes</span><span class="cls_006"> </span><A HREF="https://www.thestar.com.my/news/nation/2021/07/21/covid-19-first-delta-variant-case-detected-in-sibu">varian delta pertama</A> </span><span class="cls_004"> dikesan di Sibu</span></div>
+<div style="position:absolute;left:324.00px;top:112.47px" class="cls_004"><span class="cls_004">pengorbanan frontliners dan</span></div>
+<div style="position:absolute;left:72.00px;top:131.07px" class="cls_004"><span class="cls_004">yang melibatkan pendatang tanpa izin</span></div>
+<div style="position:absolute;left:324.00px;top:129.27px" class="cls_004"><span class="cls_004">bagaimanakah kita boleh menunjukkan</span></div>
+<div style="position:absolute;left:72.00px;top:147.88px" class="cls_004"><span class="cls_004">Indonesia yang memasuki Sarawak pada</span></div>
+<div style="position:absolute;left:324.00px;top:146.08px" class="cls_004"><span class="cls_004">penghargaan kepada frontliners.</span></div>
+<div style="position:absolute;left:72.00px;top:164.69px" class="cls_004"><span class="cls_004">5 Julai.</span></div>
+<div style="position:absolute;left:324.00px;top:202.94px" class="cls_011"><span class="cls_011">Permulaan</span></div>
+<div style="position:absolute;left:75.75px;top:216.02px" class="cls_004"><span class="cls_004">Aug 9, 2021</span></div>
+<div style="position:absolute;left:72.00px;top:233.56px" class="cls_016"><span class="cls_016">Kadar vaksinasi (dos pertama) ></span></div>
+<div style="position:absolute;left:324.00px;top:239.52px" class="cls_004"><span class="cls_004">Bagi bahagian ini, penonton video akan</span></div>
+<div style="position:absolute;left:72.00px;top:253.17px" class="cls_016"><span class="cls_016">50%</span></div>
+<div style="position:absolute;left:324.00px;top:256.32px" class="cls_004"><span class="cls_004">ditanya soalan-soalan refeksi tentang</span></div>
+<div style="position:absolute;left:324.00px;top:273.13px" class="cls_004"><span class="cls_004">perasaan mereka apabila “terkurung” di</span></div>
+<div style="position:absolute;left:72.00px;top:286.95px" class="cls_019"><span class="cls_019"> </span><A HREF="https://ourworldindata.org/covid-vaccinations?country=MYS">Lebih daripada 50%</A> <span class="cls_004"> penduduk Malaysia</span></div>
+<div style="position:absolute;left:324.00px;top:289.94px" class="cls_004"><span class="cls_004">rumah disebabkan perintah kawalan</span></div>
+<div style="position:absolute;left:72.00px;top:303.76px" class="cls_004"><span class="cls_004">telah mendapat dos vaksin pertama.</span></div>
+<div style="position:absolute;left:324.00px;top:306.75px" class="cls_004"><span class="cls_004">pergerakan yang dilaksanakan oleh</span></div>
+<div style="position:absolute;left:324.00px;top:323.56px" class="cls_004"><span class="cls_004">kerajaan. Penonton akan ditunjuk</span></div>
+<div style="position:absolute;left:324.00px;top:340.37px" class="cls_004"><span class="cls_004">rakaman tentang aktiviti-aktiviti sosial</span></div>
+<div style="position:absolute;left:75.75px;top:355.08px" class="cls_004"><span class="cls_004">Aug 29, 2021</span></div>
+<div style="position:absolute;left:324.00px;top:357.17px" class="cls_004"><span class="cls_004">sebelum pandemik ini berlaku.</span></div>
+<div style="position:absolute;left:72.00px;top:372.63px" class="cls_016"><span class="cls_016">Kadar vaksinasi (dos pertama) ></span></div>
+<div style="position:absolute;left:324.00px;top:390.79px" class="cls_004"><span class="cls_004">Kami menjangka sesetengah penonton</span></div>
+<div style="position:absolute;left:72.00px;top:392.24px" class="cls_016"><span class="cls_016">60%</span></div>
+<div style="position:absolute;left:324.00px;top:407.60px" class="cls_004"><span class="cls_004">mungkin merungut bahawa SOP yang</span></div>
+<div style="position:absolute;left:72.00px;top:426.02px" class="cls_019"><span class="cls_019"> </span><A HREF="https://ourworldindata.org/covid-vaccinations?country=MYS">Lebih daripada 60%</A> <span class="cls_004"> penduduk Malaysia</span></div>
+<div style="position:absolute;left:324.00px;top:424.41px" class="cls_004"><span class="cls_004">ditetapkan oleh kerajaan amat leceh dan</span></div>
+<div style="position:absolute;left:72.00px;top:442.83px" class="cls_004"><span class="cls_004">telah mendapat dos vaksin pertama.</span></div>
+<div style="position:absolute;left:324.00px;top:441.22px" class="cls_004"><span class="cls_004">berasa kita tidak perlu mematuhinya.</span></div>
+<div style="position:absolute;left:324.00px;top:458.02px" class="cls_004"><span class="cls_004">Oleh itu, video ini disambungkan dengan</span></div>
+<div style="position:absolute;left:324.00px;top:474.83px" class="cls_004"><span class="cls_004">tinjuan pantas mengenai latar belakang</span></div>
+<div style="position:absolute;left:324.00px;top:491.64px" class="cls_004"><span class="cls_004">dan perkembangan pandemik Covid-19</span></div>
+<div style="position:absolute;left:324.00px;top:508.45px" class="cls_004"><span class="cls_004">di Malaysia sejak kes pertama untuk</span></div>
+<div style="position:absolute;left:72.00px;top:498.72px" class="cls_015"><span class="cls_015">Pelaksanaan</span></div>
+<div style="position:absolute;left:324.00px;top:525.26px" class="cls_004"><span class="cls_004">mengingatkan penonton-penonton ini</span></div>
+<div style="position:absolute;left:324.00px;top:542.07px" class="cls_004"><span class="cls_004">bahawa rakyat Malaysia belum menang</span></div>
+<div style="position:absolute;left:72.00px;top:535.14px" class="cls_015"><span class="cls_015">Perancangan</span></div>
+<div style="position:absolute;left:324.00px;top:558.87px" class="cls_004"><span class="cls_004">dalam “peperangan” ini.</span></div>
+<div style="position:absolute;left:72.00px;top:592.13px" class="cls_011"><span class="cls_011">Konsep video</span></div>
+<div style="position:absolute;left:324.00px;top:615.73px" class="cls_011"><span class="cls_011">Kandungan Utama</span></div>
+<div style="position:absolute;left:72.00px;top:628.71px" class="cls_004"><span class="cls_004">Video ini akan dibahagikan kepada 3</span></div>
+<div style="position:absolute;left:72.00px;top:645.52px" class="cls_004"><span class="cls_004">bahagian iaitu :</span></div>
+<div style="position:absolute;left:324.00px;top:652.31px" class="cls_004"><span class="cls_004">Bahagian ini akan memperkenalkan</span></div>
+<div style="position:absolute;left:90.00px;top:662.54px" class="cls_004"><span class="cls_004">●  Bahagian permulaan</span></div>
+<div style="position:absolute;left:324.00px;top:669.12px" class="cls_004"><span class="cls_004">beberapa frontliners semasa mereka</span></div>
+<div style="position:absolute;left:90.00px;top:679.60px" class="cls_004"><span class="cls_004">●  Kandungan utama</span></div>
+<div style="position:absolute;left:324.00px;top:685.92px" class="cls_004"><span class="cls_004">bertugas dan cabaran yang dihadapi</span></div>
+<div style="position:absolute;left:90.00px;top:696.65px" class="cls_004"><span class="cls_004">●  Pengakhiran</span></div>
+<div style="position:absolute;left:324.00px;top:702.73px" class="cls_004"><span class="cls_004">oleh mereka. Selepas menonton</span></div>
+<div style="position:absolute;left:533.89px;top:740.77px" class="cls_007"><span class="cls_007">5</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4010px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="70263826-1dcd-11ec-a980-0cc47a792c0a_id_70263826-1dcd-11ec-a980-0cc47a792c0a_files/background6.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:62.04px" class="cls_004"><span class="cls_004">bahagian ini, penonton dijangka dapat</span></div>
+<div style="position:absolute;left:324.00px;top:62.04px" class="cls_004"><span class="cls_004">hadapan telah banyak memberi</span></div>
+<div style="position:absolute;left:72.00px;top:78.85px" class="cls_004"><span class="cls_004">memahami  pengorbanan frontliners</span></div>
+<div style="position:absolute;left:324.00px;top:78.85px" class="cls_004"><span class="cls_004">sumbangan dalam perang melawan virus</span></div>
+<div style="position:absolute;left:72.00px;top:95.66px" class="cls_004"><span class="cls_004">terhadap masyarakat dan negara kita.</span></div>
+<div style="position:absolute;left:324.00px;top:95.66px" class="cls_004"><span class="cls_004">Covid-19.</span></div>
+<div style="position:absolute;left:72.00px;top:112.46px" class="cls_004"><span class="cls_004">Sebelum bahagian ini berakhir, video ini</span></div>
+<div style="position:absolute;left:72.00px;top:129.27px" class="cls_004"><span class="cls_004">mempersoalkan penonton : apakah yang</span></div>
+<div style="position:absolute;left:324.00px;top:129.27px" class="cls_004"><span class="cls_004">Video ini juga meningkatkan kesedaran</span></div>
+<div style="position:absolute;left:72.00px;top:146.08px" class="cls_004"><span class="cls_004">kita harus dilakukan untuk menunjukkan</span></div>
+<div style="position:absolute;left:324.00px;top:146.08px" class="cls_004"><span class="cls_004">orang ramai bahawa pandemik ini adalah</span></div>
+<div style="position:absolute;left:72.00px;top:162.89px" class="cls_004"><span class="cls_004">penghargaan terhadap jasa frontliners.</span></div>
+<div style="position:absolute;left:324.00px;top:162.89px" class="cls_004"><span class="cls_004">sesuatu perkara yang serius. Maka, kita</span></div>
+<div style="position:absolute;left:324.00px;top:179.70px" class="cls_004"><span class="cls_004">haruslah sentiasa mematuhi SOP yang</span></div>
+<div style="position:absolute;left:324.00px;top:196.51px" class="cls_004"><span class="cls_004">telah ditetapkan oleh kerajaan bagi</span></div>
+<div style="position:absolute;left:324.00px;top:213.32px" class="cls_004"><span class="cls_004">meringankan beban hero-hero. Tindakan</span></div>
+<div style="position:absolute;left:72.00px;top:226.33px" class="cls_011"><span class="cls_011">Pengakhiran</span></div>
+<div style="position:absolute;left:324.00px;top:230.12px" class="cls_004"><span class="cls_004">ini bukan sahaja dapat menyelamatkan</span></div>
+<div style="position:absolute;left:324.00px;top:246.93px" class="cls_004"><span class="cls_004">nyawa orang ramai malahan ia juga</span></div>
+<div style="position:absolute;left:72.00px;top:262.91px" class="cls_004"><span class="cls_004">Video ini juga ingin menyampaikan</span></div>
+<div style="position:absolute;left:324.00px;top:263.74px" class="cls_004"><span class="cls_004">merupakan tanda terima kasih kepada</span></div>
+<div style="position:absolute;left:72.00px;top:279.72px" class="cls_004"><span class="cls_004">mesej bahawa hero-hero frontliners ini</span></div>
+<div style="position:absolute;left:324.00px;top:280.55px" class="cls_004"><span class="cls_004">semua yang telah menyumbang dalam</span></div>
+<div style="position:absolute;left:72.00px;top:296.53px" class="cls_004"><span class="cls_004">terdiri daripada rakyat Malaysia yang</span></div>
+<div style="position:absolute;left:324.00px;top:297.36px" class="cls_004"><span class="cls_004">usaha memerangi virus ini.</span></div>
+<div style="position:absolute;left:72.00px;top:313.34px" class="cls_004"><span class="cls_004">berbilang kaum, dan mereka telah</span></div>
+<div style="position:absolute;left:72.00px;top:330.15px" class="cls_004"><span class="cls_004">berusaha untuk menyelamatkan nyawa</span></div>
+<div style="position:absolute;left:324.00px;top:330.97px" class="cls_004"><span class="cls_004">Sehubungan dengan itu, video ini harus</span></div>
+<div style="position:absolute;left:72.00px;top:346.96px" class="cls_004"><span class="cls_004">rakyat Malaysia tanpa mengira kaum,</span></div>
+<div style="position:absolute;left:324.00px;top:347.78px" class="cls_004"><span class="cls_004">ditonton oleh orang ramai kerana video</span></div>
+<div style="position:absolute;left:72.00px;top:363.76px" class="cls_004"><span class="cls_004">budaya dan agama. Sebagai tanda</span></div>
+<div style="position:absolute;left:324.00px;top:364.59px" class="cls_004"><span class="cls_004">ini menunjukan perpaduan antara</span></div>
+<div style="position:absolute;left:72.00px;top:380.57px" class="cls_004"><span class="cls_004">penghargaan kepada frontliners, ahli-ahli</span></div>
+<div style="position:absolute;left:324.00px;top:381.40px" class="cls_004"><span class="cls_004">hero-hero yang berbilang kaum. Kami</span></div>
+<div style="position:absolute;left:72.00px;top:397.38px" class="cls_004"><span class="cls_004">kumpulan akan mengucapkan terima</span></div>
+<div style="position:absolute;left:324.00px;top:398.21px" class="cls_004"><span class="cls_004">berharap video ini dapat merangsang</span></div>
+<div style="position:absolute;left:72.00px;top:414.19px" class="cls_004"><span class="cls_004">kasih di dalam video. Video ini diakhiri</span></div>
+<div style="position:absolute;left:324.00px;top:415.02px" class="cls_004"><span class="cls_004">semua rakyat Malaysia untuk</span></div>
+<div style="position:absolute;left:72.00px;top:431.00px" class="cls_004"><span class="cls_004">dengan ahli-ahli kumpulan memakai</span></div>
+<div style="position:absolute;left:324.00px;top:431.82px" class="cls_004"><span class="cls_004">menyingkirkan prasangka mereka</span></div>
+<div style="position:absolute;left:72.00px;top:447.81px" class="cls_004"><span class="cls_004">pelitup muka sebagai peringatan kepada</span></div>
+<div style="position:absolute;left:324.00px;top:448.63px" class="cls_004"><span class="cls_004">terhadap etnik lain dan saling</span></div>
+<div style="position:absolute;left:72.00px;top:464.61px" class="cls_004"><span class="cls_004">penonton untuk sentiasa mematuhi SOP.</span></div>
+<div style="position:absolute;left:324.00px;top:465.44px" class="cls_004"><span class="cls_004">menyayangi.</span></div>
+<div style="position:absolute;left:72.00px;top:520.99px" class="cls_017"><span class="cls_017">Mengapakah video ini</span></div>
+<div style="position:absolute;left:324.00px;top:521.82px" class="cls_017"><span class="cls_017">Di manakah video ini</span></div>
+<div style="position:absolute;left:72.00px;top:549.00px" class="cls_017"><span class="cls_017">harus ditonton oleh</span></div>
+<div style="position:absolute;left:324.00px;top:549.83px" class="cls_017"><span class="cls_017">akan dimuatnaik?</span></div>
+<div style="position:absolute;left:72.00px;top:577.02px" class="cls_017"><span class="cls_017">orang ramai?</span></div>
+<div style="position:absolute;left:324.00px;top:595.29px" class="cls_004"><span class="cls_004">Video ini akan dimuat naik ke Youtube</span></div>
+<div style="position:absolute;left:324.00px;top:612.10px" class="cls_004"><span class="cls_004">dan Instagram kerana kedua-dua</span></div>
+<div style="position:absolute;left:72.00px;top:622.48px" class="cls_004"><span class="cls_004">Video ini harus dilihat oleh orang ramai</span></div>
+<div style="position:absolute;left:324.00px;top:628.91px" class="cls_004"><span class="cls_004">platform ini mempunyai aliran penonton</span></div>
+<div style="position:absolute;left:72.00px;top:639.29px" class="cls_004"><span class="cls_004">kerana video ini dapat mengingatkan</span></div>
+<div style="position:absolute;left:324.00px;top:645.72px" class="cls_004"><span class="cls_004">dan pengguna yang banyak dan amat</span></div>
+<div style="position:absolute;left:72.00px;top:656.10px" class="cls_004"><span class="cls_004">kita bahawa banyak nyawa telah</span></div>
+<div style="position:absolute;left:324.00px;top:662.53px" class="cls_004"><span class="cls_004">popular di Malaysia.</span></div>
+<div style="position:absolute;left:72.00px;top:672.90px" class="cls_004"><span class="cls_004">terkorban dalam pandemik ini dan</span></div>
+<div style="position:absolute;left:72.00px;top:689.71px" class="cls_004"><span class="cls_004">hero-hero seperti petugas garisan</span></div>
+<div style="position:absolute;left:533.89px;top:740.77px" class="cls_007"><span class="cls_007">6</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-306px;top:4812px;width:612px;height:792px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="70263826-1dcd-11ec-a980-0cc47a792c0a_id_70263826-1dcd-11ec-a980-0cc47a792c0a_files/background7.jpg" width=612 height=792></div>
+<div style="position:absolute;left:72.00px;top:84.80px" class="cls_017"><span class="cls_017">Siapakah target</span></div>
+<div style="position:absolute;left:72.00px;top:112.81px" class="cls_017"><span class="cls_017">penonton video ini?</span></div>
+<div style="position:absolute;left:72.00px;top:158.27px" class="cls_004"><span class="cls_004">Video ini sesuai untuk semua rakyat</span></div>
+<div style="position:absolute;left:72.00px;top:175.08px" class="cls_004"><span class="cls_004">Malaysia, termasuk kanak-kanak dan</span></div>
+<div style="position:absolute;left:72.00px;top:191.89px" class="cls_004"><span class="cls_004">warga emas, kerana mesej yang ingin</span></div>
+<div style="position:absolute;left:72.00px;top:208.70px" class="cls_004"><span class="cls_004">disampaikan dalam video ini penting</span></div>
+<div style="position:absolute;left:72.00px;top:225.51px" class="cls_004"><span class="cls_004">kepada semua rakyat Malaysia.</span></div>
+<div style="position:absolute;left:533.89px;top:740.77px" class="cls_007"><span class="cls_007">7</span></div>
+</div>
+
+</body>
+</html>
